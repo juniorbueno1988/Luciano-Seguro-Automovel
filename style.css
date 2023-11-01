@@ -1,0 +1,135 @@
+body {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.imagem-logo {
+    border-radius: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.nome-da-empresa {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.texto-inicial {
+    font-size: 24px;
+    margin: 0;
+}
+
+.primeira-imagem {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+.imagem-um {
+    width: 40%;
+    margin-left: 20px;
+    border-radius: 1%;
+    margin: 20px 30px;
+}
+
+.primeiro-texto {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+    line-height: 2.0;
+    width: 60%;
+    max-width: 700px;
+    margin: 60px auto;
+}
+
+.segunda-imagem {
+    display: flex;
+    align-items: center;
+}
+
+.imagem-dois {
+    width: 40%;
+    margin-right: 20px;
+    border-radius: 1%;
+    margin: 20px 20px;
+}
+
+.segundo-texto {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+    line-height: 2.0;
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.terceira-imagem {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.imagem-tres {
+    width: 40%;
+    margin-left: 20px;
+    border-radius: 1%;
+    margin: 60px 20px;
+
+}
+
+.terceiro-texto {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+    line-height: 2.0;
+    width: 60%;
+
+}
+
+.WhatsApp {
+    background-color: red;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.whatsapp-link {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-link::before {
+    content: "\f232";
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
