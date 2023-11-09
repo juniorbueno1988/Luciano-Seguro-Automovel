@@ -6,6 +6,7 @@ body {
     justify-content: flex-start;
     min-height: 100vh;
     margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -161,14 +162,14 @@ body {
     .segundo-texto,
     .terceiro-texto {
         width: 100%;
-        font-size: 16px;
-        /* Reduzir o tamanho da fonte */
-        margin: 10px 0;
-        /* Reduzir as margens */
+        font-size: 14px;
+        /* Reduzir ainda mais o tamanho da fonte */
+        margin: 5px 0;
+        /* Reduzir as margens ainda mais */
     }
 
     .nome-da-empresa {
-        font-size: 36px;
+        font-size: 24px;
         /* Reduzir o tamanho da fonte do cabeçalho */
     }
 }
