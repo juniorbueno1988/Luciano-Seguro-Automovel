@@ -141,35 +141,31 @@ body {
     margin-right: 10px;
 }
 
+/* ... (seus outros estilos) */
+
+/* Consulta de mídia para telas menores que 600px */
 @media only screen and (max-width: 600px) {
-
     /* Ajustes para telas menores */
-    .imagem-um,
-    .imagem-dois,
-    .imagem-tres {
+    .imagem-um, .imagem-dois, .imagem-tres {
         width: 100%;
     }
 
-    .primeira-imagem,
-    .segunda-imagem,
-    .terceira-imagem {
+    .primeira-imagem, .segunda-imagem, .terceira-imagem {
         flex-direction: column;
-        align-items: center;
-        /* Centralizar imagens */
+        align-items: center; /* Centralizar imagens */
     }
 
-    .primeiro-texto,
-    .segundo-texto,
-    .terceiro-texto {
+    .primeiro-texto, .segundo-texto, .terceiro-texto {
         width: 100%;
-        font-size: 14px;
-        /* Reduzir ainda mais o tamanho da fonte */
-        margin: 5px 0;
-        /* Reduzir as margens ainda mais */
+        font-size: 14px; /* Reduzir ainda mais o tamanho da fonte */
+        margin: 5px 0; /* Reduzir as margens ainda mais */
     }
 
     .nome-da-empresa {
-        font-size: 24px;
-        /* Reduzir o tamanho da fonte do cabeçalho */
+        font-size: 24px; /* Reduzir o tamanho da fonte do cabeçalho */
+    }
+
+    .terceiro-texto {
+        margin-bottom: 20px; /* Adicionar margem inferior entre o terceiro texto e o rodapé */
     }
 }
