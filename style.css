@@ -139,3 +139,25 @@ body {
     font-family: FontAwesome;
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    /* Adicione o estilo responsivo aqui */
+    .primeira-imagem,
+    .segunda-imagem,
+    .terceira-imagem {
+        flex-direction: column;
+    }
+
+    .imagem-um,
+    .imagem-dois,
+    .imagem-tres {
+        width: 100%;
+    }
+
+    .primeiro-texto,
+    .segundo-texto,
+    .terceiro-texto {
+        width: 100%;
+    }
+}
